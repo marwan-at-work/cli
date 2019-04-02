@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"gopkg.in/urfave/cli.v2"
+	"marwan.io/cli"
 )
 
 // NewJSONSourceFromFlagFunc returns a func that takes a cli.Context

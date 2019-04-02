@@ -145,7 +145,7 @@ def _flag_literals(source):
 def _v1_imports(source):
     return re.sub(
         '"(?:github\\.com|gopkg\\.in)/(?:codegangsta|urfave)/cli(?:\\.v1|)"',
-        '"gopkg.in/urfave/cli.v2"', source, flags=re.UNICODE
+        '"marwan.io/cli"', source, flags=re.UNICODE
     )
 
 
@@ -391,12 +391,12 @@ _MIGRATOR_TESTS = (
 \t"gopkg.in/urfave/cli"
 \t"gopkg.in/urfave/cli.v1"
 """, """
-\t"gopkg.in/urfave/cli.v2"
-\t"gopkg.in/urfave/cli.v2"
-\t"gopkg.in/urfave/cli.v2"
-\t"gopkg.in/urfave/cli.v2"
-\t"gopkg.in/urfave/cli.v2"
-\t"gopkg.in/urfave/cli.v2"
+\t"marwan.io/cli"
+\t"marwan.io/cli"
+\t"marwan.io/cli"
+\t"marwan.io/cli"
+\t"marwan.io/cli"
+\t"marwan.io/cli"
 """),
     ("""
 \t\t\t\treturn cli.NewExitError("foo whatebber", 9)

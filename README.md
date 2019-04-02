@@ -95,13 +95,13 @@ that, please use whatever version pinning of your preference, such as via
 `gopkg.in`:
 
 ```
-$ go get gopkg.in/urfave/cli.v2
+$ go get marwan.io/cli
 ```
 
 ``` go
 ...
 import (
-  "gopkg.in/urfave/cli.v2" // imports as package "cli"
+  "marwan.io/cli" // imports as package "cli"
 )
 ...
 ```
@@ -144,7 +144,7 @@ package main
 import (
   "os"
 
-  "gopkg.in/urfave/cli.v2"
+  "marwan.io/cli"
 )
 
 func main() {
@@ -165,7 +165,7 @@ import (
   "fmt"
   "os"
 
-  "gopkg.in/urfave/cli.v2"
+  "marwan.io/cli"
 )
 
 func main() {
@@ -204,7 +204,7 @@ import (
   "fmt"
   "os"
 
-  "gopkg.in/urfave/cli.v2"
+  "marwan.io/cli"
 )
 
 func main() {
@@ -268,7 +268,7 @@ import (
   "fmt"
   "os"
 
-  "gopkg.in/urfave/cli.v2"
+  "marwan.io/cli"
 )
 
 func main() {
@@ -297,7 +297,7 @@ import (
   "fmt"
   "os"
 
-  "gopkg.in/urfave/cli.v2"
+  "marwan.io/cli"
 )
 
 func main() {
@@ -340,7 +340,7 @@ import (
   "os"
   "fmt"
 
-  "gopkg.in/urfave/cli.v2"
+  "marwan.io/cli"
 )
 
 func main() {
@@ -392,7 +392,7 @@ package main
 import (
   "os"
 
-  "gopkg.in/urfave/cli.v2"
+  "marwan.io/cli"
 )
 
 func main() {
@@ -434,7 +434,7 @@ package main
 import (
   "os"
 
-  "gopkg.in/urfave/cli.v2"
+  "marwan.io/cli"
 )
 
 func main() {
@@ -540,7 +540,7 @@ package main
 import (
   "os"
 
-  "gopkg.in/urfave/cli.v2"
+  "marwan.io/cli"
 )
 
 func main() {
@@ -573,7 +573,7 @@ package main
 import (
   "os"
 
-  "gopkg.in/urfave/cli.v2"
+  "marwan.io/cli"
 )
 
 func main() {
@@ -639,8 +639,8 @@ import (
   "fmt"
   "os"
 
-  "gopkg.in/urfave/cli.v2"
-  "gopkg.in/urfave/cli.v2/altsrc"
+  "marwan.io/cli"
+  "marwan.io/cli/altsrc"
 )
 
 func main() {
@@ -678,7 +678,7 @@ package main
 import (
   "os"
 
-  "gopkg.in/urfave/cli.v2"
+  "marwan.io/cli"
 )
 
 func main() {
@@ -719,7 +719,7 @@ import (
   "fmt"
   "os"
 
-  "gopkg.in/urfave/cli.v2"
+  "marwan.io/cli"
 )
 
 func main() {
@@ -787,7 +787,7 @@ package main
 import (
   "os"
 
-  "gopkg.in/urfave/cli.v2"
+  "marwan.io/cli"
 )
 
 func main() {
@@ -835,7 +835,7 @@ package main
 import (
   "os"
 
-  "gopkg.in/urfave/cli.v2"
+  "marwan.io/cli"
 )
 
 func main() {
@@ -877,7 +877,7 @@ import (
   "fmt"
   "os"
 
-  "gopkg.in/urfave/cli.v2"
+  "marwan.io/cli"
 )
 
 func main() {
@@ -957,7 +957,7 @@ package main
 import (
   "os"
 
-  "gopkg.in/urfave/cli.v2"
+  "marwan.io/cli"
 )
 
 func main() {
@@ -1003,7 +1003,7 @@ import (
   "io"
   "os"
 
-  "gopkg.in/urfave/cli.v2"
+  "marwan.io/cli"
 )
 
 func main() {
@@ -1060,7 +1060,7 @@ package main
 import (
   "os"
 
-  "gopkg.in/urfave/cli.v2"
+  "marwan.io/cli"
 )
 
 func main() {
@@ -1095,7 +1095,7 @@ package main
 import (
   "os"
 
-  "gopkg.in/urfave/cli.v2"
+  "marwan.io/cli"
 )
 
 func main() {
@@ -1125,7 +1125,7 @@ import (
   "fmt"
   "os"
 
-  "gopkg.in/urfave/cli.v2"
+  "marwan.io/cli"
 )
 
 var (
@@ -1165,7 +1165,7 @@ import (
   "os"
   "time"
 
-  "gopkg.in/urfave/cli.v2"
+  "marwan.io/cli"
 )
 
 func init() {

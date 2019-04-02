@@ -11,7 +11,7 @@ import (
 	"os"
 	"testing"
 
-	"gopkg.in/urfave/cli.v2"
+	"marwan.io/cli"
 )
 
 func TestCommandYamlFileTest(t *testing.T) {

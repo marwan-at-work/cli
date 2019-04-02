@@ -19,9 +19,9 @@ before_script:
     pip install --user flake8;
   fi
 - mkdir -p ${GOPATH%%:*}/src/gopkg.in/urfave
-- rm -rvf ${GOPATH%%:*}/src/gopkg.in/urfave/cli.v2
-- rm -rvf ${GOPATH%%:*}/pkg/*/gopkg.in/urfave/cli.v2.a
-- ln -sv ${TRAVIS_BUILD_DIR} ${GOPATH%%:*}/src/gopkg.in/urfave/cli.v2
+- rm -rvf ${GOPATH%%:*}/src/marwan.io/cli
+- rm -rvf ${GOPATH%%:*}/pkg/*/marwan.io/cli.a
+- ln -sv ${TRAVIS_BUILD_DIR} ${GOPATH%%:*}/src/marwan.io/cli
 
 script:
 - flake8 runtests cli-v1-to-v2 generate-flag-types

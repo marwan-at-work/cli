@@ -10,7 +10,7 @@ import (
 	"reflect"
 
 	"github.com/BurntSushi/toml"
-	"gopkg.in/urfave/cli.v2"
+	"marwan.io/cli"
 )
 
 type tomlMap struct {

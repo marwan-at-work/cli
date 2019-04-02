@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"gopkg.in/urfave/cli.v2"
+	"marwan.io/cli"
 )
 
 type testApplyInputSource struct {

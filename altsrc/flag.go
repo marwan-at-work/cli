@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"syscall"
 
-	"gopkg.in/urfave/cli.v2"
+	"marwan.io/cli"
 )
 
 // FlagInputSourceExtension is an extension interface of cli.Flag that

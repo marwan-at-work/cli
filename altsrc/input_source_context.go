@@ -3,7 +3,7 @@ package altsrc
 import (
 	"time"
 
-	"gopkg.in/urfave/cli.v2"
+	"marwan.io/cli"
 )
 
 // InputSourceContext is an interface used to allow
